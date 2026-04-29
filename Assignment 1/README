@@ -1,0 +1,30 @@
+Linux Commands Practice Project
+
+Objective
+This project demonstrates basic Linux commands for file management, content viewing, searching, compression, downloading, permissions, and environment variables.
+
+Tasks Performed
+
+1. File & Directory Management
+- Created directory using `mkdir`
+- Created file using `touch`
+- Renamed file using `mv`
+
+2. File Content Viewing
+- Used `cat`, `head`, and `tail` to view file contents
+
+3. Pattern Searching
+- Used `grep` to find specific patterns
+
+4. Compression
+- Compressed using `zip`
+- Extracted using `unzip`
+
+5. File Download
+- Downloaded file using `wget`
+
+6. Permissions
+- Changed file permissions using `chmod`
+
+7. Environment Variables
+- Created environment variable using `export`
