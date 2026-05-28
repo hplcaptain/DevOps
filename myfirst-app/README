@@ -1,0 +1,69 @@
+# Dockerized Flask + Node.js Application
+
+## Project Overview
+
+This project demonstrates a multi-container application using:
+
+* Frontend: Node.js with Express
+* Backend: Flask
+* Docker
+* Docker Compose
+
+The frontend form sends user data to the Flask backend for processing.
+
+---
+
+# Project Structure
+
+```bash
+project-root/
+│
+├── frontend/
+├── backend/
+├── docker-compose.yml
+├── .gitignore
+└── README.md
+```
+
+---
+
+# Technologies Used
+
+* Node.js
+* Express.js
+* Flask
+* Docker
+* Docker Compose
+
+---
+
+# Run the Project
+
+```bash
+docker compose up --build
+```
+
+---
+
+# Access Application
+
+Frontend:
+
+```bash
+http://localhost:3000
+```
+
+Backend:
+
+```bash
+http://localhost:5000
+```
+
+---
+
+# Docker Hub Images
+
+* Frontend Image
+* Backend Image
+
+---
