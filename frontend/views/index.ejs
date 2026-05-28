@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Node Frontend</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <h1>User Registration Form</h1>
+
+    <form action="/submit" method="POST">
+
+        <input type="text" name="name" placeholder="Enter Name" required>
+
+        <input type="email" name="email" placeholder="Enter Email" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <% if(result){ %>
+        <h2><%= result %></h2>
+    <% } %>
+
+</body>
+
+</html>
