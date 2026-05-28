@@ -1,0 +1,42 @@
+1. Grade Checker
+File Name: Score.py
+This program will take input from the user and share the grade based on predefined conditions.
+
+90 and above A
+80-89 B
+70-79 C
+60-69 D
+Below 60 F
+
+Concepts Used
+- if-elif-else conditions
+- User input handling
+
+2. Store Grade 
+This program uses a dictionary to store student names, age and their grades. It allows users to:
+- Add a new student
+- Update an existing student's grade
+- View all student records
+
+Concepts Used
+- Python dictionaries
+- Loops (while)
+- Conditional statements
+
+3. Combined Read/Write Program
+Description
+A menu-driven program that allows users to:
+
+- Write content to a file
+- Read content from a file
+- Exit the program
+
+Features
+- User-friendly interface
+- Error handling for missing files
+- Uses with open() for safe file operations
+
+Concepts Used
+- Loops and conditionals
+- File handling
+- Exception handling (try-except)
